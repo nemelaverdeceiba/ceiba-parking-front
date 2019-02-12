@@ -1,0 +1,295 @@
+// Use IntelliSense to learn about possible attributes.
+// Hover to view descriptions of existing attributes.
+// For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+{
+    "version": "2.0.0",
+    "configurations": [
+        {
+            "name": "Launch Chrome ceiba-parking-front on Angular CLI Server",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:4200/#",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Chrome ceiba-parking-front on Angular CLI Server (1)",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:4200/#",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Chrome ceiba-parking-front on Angular CLI Server (2)",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:4200/#",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Chrome ceiba-parking-front on Angular CLI Server (3)",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:4200/#",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Chrome ceiba-parking-front on Angular CLI Server (4)",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:4200/#",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Chrome ceiba-parking-front on Angular CLI Server (5)",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:4200/#",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Chrome ceiba-parking-front on Angular CLI Server (6)",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:4200/#",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Chrome ceiba-parking-front on Angular CLI Server (7)",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:4200/#",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Chrome ceiba-parking-front on Angular CLI Server (8)",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:4200/#",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Chrome ceiba-parking-front on Angular CLI Server (9)",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:4200/#",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Chrome ceiba-parking-front on Angular CLI Server (10)",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:4200/#",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Chrome ceiba-parking-front on Angular CLI Server (11)",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:4200/#",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Chrome ceiba-parking-front on Angular CLI Server (12)",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:4200/#",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Chrome ceiba-parking-front on Angular CLI Server (13)",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:4200/#",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Chrome ceiba-parking-front on Angular CLI Server (14)",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:4200/#",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Chrome ceiba-parking-front on Angular CLI Server (15)",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:4200/#",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Chrome ceiba-parking-front on Angular CLI Server (16)",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:4200/#",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Chrome ceiba-parking-front on Angular CLI Server (17)",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:4200/#",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Chrome ceiba-parking-front on Angular CLI Server (18)",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:4200/#",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Chrome ceiba-parking-front on Angular CLI Server (19)",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:4200/#",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Chrome ceiba-parking-front on Angular CLI Server (20)",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:4200/#",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Chrome ceiba-parking-front on Angular CLI Server (21)",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:4200/#",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Chrome ceiba-parking-front on Angular CLI Server (22)",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:4200/#",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Chrome ceiba-parking-front on Angular CLI Server (23)",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:4200/#",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Chrome ceiba-parking-front on Angular CLI Server (24)",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:4200/#",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Chrome ceiba-parking-front on Angular CLI Server (25)",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:4200/#",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Chrome ceiba-parking-front on Angular CLI Server (26)",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:4200/#",
+            "webRoot": "${workspaceFolder}"
+        }
+    ]
+}{
+    "name": "Launch Chrome ceiba-parking-front on Angular CLI Server (15)",
+    "type": "chrome",
+    "request": "launch",
+    "url": "http://localhost:4200/#",
+    "webRoot": "${workspaceFolder}"
+}
+]
+}            "type": "chrome",
+"request": "launch",
+"url": "http://localhost:4200/#",
+"webRoot": "${workspaceFolder}"
+},
+{
+"name": "Launch Chrome ceiba-parking-front on Angular CLI Server (10)",
+"type": "chrome",
+"request": "launch",
+"url": "http://localhost:4200/#",
+"webRoot": "${workspaceFolder}"
+},
+{
+"name": "Launch Chrome ceiba-parking-front on Angular CLI Server (11)",
+"type": "chrome",
+"request": "launch",
+"url": "http://localhost:4200/#",
+"webRoot": "${workspaceFolder}"
+},
+{
+"name": "Launch Chrome ceiba-parking-front on Angular CLI Server (12)",
+"type": "chrome",
+"request": "launch",
+"url": "http://localhost:4200/#",
+"webRoot": "${workspaceFolder}"
+},
+{
+"name": "Launch Chrome ceiba-parking-front on Angular CLI Server (13)",
+"type": "chrome",
+"request": "launch",
+"url": "http://localhost:4200/#",
+"webRoot": "${workspaceFolder}"
+},
+{
+"name": "Launch Chrome ceiba-parking-front on Angular CLI Server (14)",
+"type": "chrome",
+"request": "launch",
+"url": "http://localhost:4200/#",
+"webRoot": "${workspaceFolder}"
+}
+]
+}{
+"name": "Launch Chrome ceiba-parking-front on Angular CLI Server (15)",
+"type": "chrome",
+"request": "launch",
+"url": "http://localhost:4200/#",
+"webRoot": "${workspaceFolder}"
+}
+]
+}            "type": "chrome",
+"request": "launch",
+"url": "http://localhost:4200/#",
+"webRoot": "${workspaceFolder}"
+},
+{
+"name": "Launch Chrome ceiba-parking-front on Angular CLI Server (10)",
+"type": "chrome",
+"request": "launch",
+"url": "http://localhost:4200/#",
+"webRoot": "${workspaceFolder}"
+},
+{
+"name": "Launch Chrome ceiba-parking-front on Angular CLI Server (11)",
+"type": "chrome",
+"request": "launch",
+"url": "http://localhost:4200/#",
+"webRoot": "${workspaceFolder}"
+},
+{
+"name": "Launch Chrome ceiba-parking-front on Angular CLI Server (12)",
+"type": "chrome",
+"request": "launch",
+"url": "http://localhost:4200/#",
+"webRoot": "${workspaceFolder}"
+},
+{
+"name": "Launch Chrome ceiba-parking-front on Angular CLI Server (13)",
+"type": "chrome",
+"request": "launch",
+"url": "http://localhost:4200/#",
+"webRoot": "${workspaceFolder}"
+},
+{
+"name": "Launch Chrome ceiba-parking-front on Angular CLI Server (14)",
+"type": "chrome",
+"request": "launch",
+"url": "http://localhost:4200/#",
+"webRoot": "${workspaceFolder}"
+}
+]
+}

@@ -1,0 +1,118 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+</div>
+
+<div ng-app="ceibaParking">
+
+  <form ngNativeValidate>
+
+    <h1>Parqueadero Ceiba</h1>
+    <hr>
+
+    <div class="tab">
+      <button class="tablinks" onclick="openCity(event, 'London')">
+        <h3>Registro Entrada de Vehiculo</h3>
+      </button>
+      <button class="tablinks" onclick="openCity(event, 'Paris')">
+        <h3>Registrar Salida de Vehiculo</h3>
+      </button>
+      <button class="tablinks" onclick="openCity(event, 'Tokyo')">
+        <h3>Listado de Vehiculos en Parqueo</h3>
+      </button>
+    </div>
+
+    <div id="London" class="tabcontent">
+
+      <div style="text-align: center">
+
+        <label>Placa:</label>
+        <input name="licensePlate" type="text" placeholder="Ingrese la placa" style="width: 150px;" [(ngModel)]="licensePlate" required>
+        <br>
+        <label>Cilindraje:</label>
+        <input name="cubicCentimeters" required type="number" placeholder="Ingrese el cilindraje" style="width: 150px;" [(ngModel)]="cubicCentimeters">
+        <br>
+        <label>Tipo de Vehiculo:</label>
+        <select name="vehicleType" required style="width: 150px;" [(ngModel)]="vehicleType">
+          <option value=""></option>
+          <option value="CAR">Automovil</option>
+          <option value="MOTORBYKE">Motocicleta</option>
+        </select>
+        <br>
+        <button type="button" (click)=registerParkingRecordEntry()>Registrar</button>
+
+        <br>
+      </div>
+    </div>
+
+
+    <div id="Paris" class="tabcontent">
+
+      <div style="text-align: center">
+
+        <label>Placa:</label>
+        <input name="licensePlate2" required type="text" placeholder="Ingrese la placa" style="width: 150px;" [(ngModel)]="licensePlate">
+        <br>
+        <button type="button" (click)=registerParkingExit()>Registrar</button>
+
+        <br>
+      </div>
+    </div>
+
+
+    <div id="Tokyo" class="tabcontent">
+
+      <hr>
+      <button type="button" (click)=searchParkingRecords()>Listar</button>
+
+      <li *ngFor="let parking of parkingSearchInDto.listParkinsRecords">
+        {{ parking.entryDate }} 
+        {{ parking.outDate }} 
+        {{ parking.billValue }} 
+        {{ parking.vehicle.licensePlate }} 
+        {{ parking.vehicle.cubicCentimeters}}
+        {{ parking.vehicle.vehicleType }}
+      </li>
+
+      <!-- <table mat-table [dataSource]="parkingSearchInDto.listParkinsRecords" class="mat-elevation-z8">
+        <ng-container matColumnDef="entryDate">
+          <th mat-header-cell *matHeaderCellDef> Fecha Ingreso</th>
+          <td mat-cell *matCellDef="let element"> {{element.entryDate}} </td>
+        </ng-container>
+        <ng-container matColumnDef="outDate">
+          <th mat-header-cell *matHeaderCellDef>Fecha de Salida</th>
+          <td mat-cell *matCellDef="let element"> {{element.outDate}} </td>
+        </ng-container>
+        <ng-container matColumnDef="billDate">
+          <th mat-header-cell *matHeaderCellDef>Valor parqueadero</th>
+          <td mat-cell *matCellDef="let element"> {{element.billDate}} </td>
+        </ng-container>
+        <ng-container matColumnDef="licensePlate">
+          <th mat-header-cell *matHeaderCellDef>Placa Vehiculo</th>
+          <td mat-cell *matCellDef="let element"> {{element.licensePlate}} </td>
+        </ng-container>
+        <ng-container matColumnDef="cubicCentimeters">
+          <th mat-header-cell *matHeaderCellDef>Cilindraje</th>
+          <td mat-cell *matCellDef="let element"> {{element.cubicCentimeters}} </td>
+        </ng-container>
+          <ng-container matColumnDef="vehicleType">
+          <th mat-header-cell *matHeaderCellDef>Tipo de Vehiculo</th>
+          <td mat-cell *matCellDef="let element"> {{element.vehicleType}} </td>
+        </ng-container>
+        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+        <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+      </table>-->
+
+    </div>
+
+
+    <div *ngIf="parkingRecordInDto">Respuesta: {{parkingRecordInDto.responseCode}} {{parkingRecordInDto.responseMessage}}
+    </div>
+    <div *ngIf="parkingSearchInDto">Respuesta: {{parkingSearchInDto.responseCode}} {{parkingSearchInDto.responseMessage}}
+    </div>
+
+  </form>
+
+</div>
